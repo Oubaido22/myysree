@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:social_media_app/components/notification_stream_wrapper.dart';
-import 'package:social_media_app/models/notification.dart';
-import 'package:social_media_app/utils/firebase.dart';
-import 'package:social_media_app/widgets/notification_items.dart';
+import 'package:myysree/components/notification_stream_wrapper.dart';
+import 'package:myysree/models/notification.dart';
+import 'package:myysree/utils/firebase.dart';
+import 'package:myysree/widgets/notification_items.dart';
 
 class Activities extends StatefulWidget {
   @override

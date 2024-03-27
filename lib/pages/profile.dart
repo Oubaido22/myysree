@@ -4,15 +4,15 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
-import 'package:social_media_app/auth/register/register.dart';
-import 'package:social_media_app/components/stream_grid_wrapper.dart';
-import 'package:social_media_app/models/post.dart';
-import 'package:social_media_app/models/user.dart';
-import 'package:social_media_app/screens/edit_profile.dart';
-import 'package:social_media_app/screens/list_posts.dart';
-import 'package:social_media_app/screens/settings.dart';
-import 'package:social_media_app/utils/firebase.dart';
-import 'package:social_media_app/widgets/post_tiles.dart';
+import 'package:myysree/auth/register/register.dart';
+import 'package:myysree/components/stream_grid_wrapper.dart';
+import 'package:myysree/models/post.dart';
+import 'package:myysree/models/user.dart';
+import 'package:myysree/screens/edit_profile.dart';
+import 'package:myysree/screens/list_posts.dart';
+import 'package:myysree/screens/settings.dart';
+import 'package:myysree/utils/firebase.dart';
+import 'package:myysree/widgets/post_tiles.dart';
 
 class Profile extends StatefulWidget {
   final profileId;

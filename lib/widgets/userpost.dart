@@ -5,15 +5,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:like_button/like_button.dart';
-import 'package:social_media_app/components/custom_card.dart';
-import 'package:social_media_app/components/custom_image.dart';
-import 'package:social_media_app/models/post.dart';
-import 'package:social_media_app/models/user.dart';
-import 'package:social_media_app/pages/profile.dart';
-import 'package:social_media_app/screens/comment.dart';
-import 'package:social_media_app/screens/view_image.dart';
-import 'package:social_media_app/services/post_service.dart';
-import 'package:social_media_app/utils/firebase.dart';
+import 'package:myysree/components/custom_card.dart';
+import 'package:myysree/components/custom_image.dart';
+import 'package:myysree/models/post.dart';
+import 'package:myysree/models/user.dart';
+import 'package:myysree/pages/profile.dart';
+import 'package:myysree/screens/comment.dart';
+import 'package:myysree/screens/view_image.dart';
+import 'package:myysree/services/post_service.dart';
+import 'package:myysree/utils/firebase.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 class UserPost extends StatelessWidget {

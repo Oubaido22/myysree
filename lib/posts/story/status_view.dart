@@ -2,11 +2,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:social_media_app/models/status.dart';
-import 'package:social_media_app/models/user.dart';
-import 'package:social_media_app/utils/firebase.dart';
-import 'package:social_media_app/view_models/status/status_view_model.dart';
-import 'package:social_media_app/widgets/indicators.dart';
+import 'package:myysree/models/status.dart';
+import 'package:myysree/models/user.dart';
+import 'package:myysree/utils/firebase.dart';
+import 'package:myysree/view_models/status/status_view_model.dart';
+import 'package:myysree/widgets/indicators.dart';
 import 'package:story/story.dart';
 import 'package:timeago/timeago.dart' as timeago;
 

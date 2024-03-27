@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
-import 'package:social_media_app/models/post.dart';
-import 'package:social_media_app/utils/firebase.dart';
-import 'package:social_media_app/widgets/indicators.dart';
-import 'package:social_media_app/widgets/userpost.dart';
+import 'package:myysree/models/post.dart';
+import 'package:myysree/utils/firebase.dart';
+import 'package:myysree/widgets/indicators.dart';
+import 'package:myysree/widgets/userpost.dart';
 
 class ListPosts extends StatefulWidget {
   final userId;

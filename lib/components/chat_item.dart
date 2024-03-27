@@ -2,11 +2,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:social_media_app/chats/conversation.dart';
-import 'package:social_media_app/components/text_time.dart';
-import 'package:social_media_app/models/enum/message_type.dart';
-import 'package:social_media_app/models/user.dart';
-import 'package:social_media_app/utils/firebase.dart';
+import 'package:myysree/chats/conversation.dart';
+import 'package:myysree/components/text_time.dart';
+import 'package:myysree/models/enum/message_type.dart';
+import 'package:myysree/models/user.dart';
+import 'package:myysree/utils/firebase.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 class ChatItem extends StatelessWidget {

@@ -2,8 +2,8 @@ import 'package:animations/animations.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:social_media_app/posts/story/confrim_status.dart';
-import 'package:social_media_app/view_models/status/status_view_model.dart';
+import 'package:myysree/posts/story/confrim_status.dart';
+import 'package:myysree/view_models/status/status_view_model.dart';
 import '../posts/create_post.dart';
 
 class FabContainer extends StatelessWidget {
@@ -95,7 +95,6 @@ class FabContainer extends StatelessWidget {
                 onTap: () async {
                   // Navigator.pop(context);
                   await viewModel.pickImage(context: context);
-
                 },
               ),
             ],

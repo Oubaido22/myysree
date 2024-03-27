@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:loading_overlay/loading_overlay.dart';
 import 'package:provider/provider.dart';
-import 'package:social_media_app/components/text_form_builder.dart';
-import 'package:social_media_app/models/user.dart';
-import 'package:social_media_app/utils/firebase.dart';
-import 'package:social_media_app/utils/validation.dart';
-import 'package:social_media_app/view_models/profile/edit_profile_view_model.dart';
-import 'package:social_media_app/widgets/indicators.dart';
+import 'package:myysree/components/text_form_builder.dart';
+import 'package:myysree/models/user.dart';
+import 'package:myysree/utils/firebase.dart';
+import 'package:myysree/utils/validation.dart';
+import 'package:myysree/view_models/profile/edit_profile_view_model.dart';
+import 'package:myysree/widgets/indicators.dart';
 
 class EditProfile extends StatefulWidget {
   final UserModel? user;

@@ -2,20 +2,20 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:ionicons/ionicons.dart';
-import 'package:social_media_app/chats/recent_chats.dart';
-import 'package:social_media_app/models/post.dart';
-import 'package:social_media_app/utils/constants.dart';
-import 'package:social_media_app/utils/firebase.dart';
-import 'package:social_media_app/widgets/indicators.dart';
-import 'package:social_media_app/widgets/story_widget.dart';
-import 'package:social_media_app/widgets/userpost.dart';
+import 'package:myysree/chats/recent_chats.dart';
+import 'package:myysree/models/post.dart';
+import 'package:myysree/utils/constants.dart';
+import 'package:myysree/utils/firebase.dart';
+import 'package:myysree/widgets/indicators.dart';
+import 'package:myysree/widgets/story_widget.dart';
+import 'package:myysree/widgets/userpost.dart';
 
 class Feeds extends StatefulWidget {
   @override
   _FeedsState createState() => _FeedsState();
 }
 
-class _FeedsState extends State<Feeds> with AutomaticKeepAliveClientMixin{
+class _FeedsState extends State<Feeds> with AutomaticKeepAliveClientMixin {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 
   int page = 5;

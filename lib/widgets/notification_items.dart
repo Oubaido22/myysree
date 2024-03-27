@@ -1,13 +1,13 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:social_media_app/models/notification.dart';
-import 'package:social_media_app/pages/profile.dart';
-import 'package:social_media_app/utils/firebase.dart';
-import 'package:social_media_app/widgets/view_notification_details.dart';
+import 'package:myysree/models/notification.dart';
+import 'package:myysree/pages/profile.dart';
+import 'package:myysree/utils/firebase.dart';
+import 'package:myysree/widgets/view_notification_details.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
-import 'package:social_media_app/widgets/indicators.dart';
+import 'package:myysree/widgets/indicators.dart';
 
 class ActivityItems extends StatefulWidget {
   final ActivityModel? activity;

@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:social_media_app/models/user.dart';
-import 'package:social_media_app/screens/view_image.dart';
-import 'package:social_media_app/services/services.dart';
-import 'package:social_media_app/utils/firebase.dart';
+import 'package:myysree/models/user.dart';
+import 'package:myysree/screens/view_image.dart';
+import 'package:myysree/services/services.dart';
+import 'package:myysree/utils/firebase.dart';
 import 'package:uuid/uuid.dart';
 
 class PostService extends Service {

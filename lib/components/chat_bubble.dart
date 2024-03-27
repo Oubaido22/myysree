@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_chat_bubble/bubble_type.dart';
 import 'package:flutter_chat_bubble/chat_bubble.dart';
 import 'package:flutter_chat_bubble/clippers/chat_bubble_clipper_3.dart';
-import 'package:social_media_app/components/text_time.dart';
-import 'package:social_media_app/models/enum/message_type.dart';
+import 'package:myysree/components/text_time.dart';
+import 'package:myysree/models/enum/message_type.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 class ChatBubbleWidget extends StatefulWidget {

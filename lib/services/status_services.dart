@@ -4,9 +4,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:social_media_app/models/status.dart';
-import 'package:social_media_app/services/user_service.dart';
-import 'package:social_media_app/utils/firebase.dart';
+import 'package:myysree/models/status.dart';
+import 'package:myysree/services/user_service.dart';
+import 'package:myysree/utils/firebase.dart';
 import 'package:uuid/uuid.dart';
 
 class StatusService {

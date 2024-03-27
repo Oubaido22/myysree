@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBI2mz-FYOBLiZw2eViMXZ6MhSt9XuLG6M',
-    appId: '1:97202136774:android:bf6b04a7fae4e625b4d9c7',
+    appId: '1:97202136774:android:a361aa62b257151fb4d9c7',
     messagingSenderId: '97202136774',
     projectId: 'towninow',
     databaseURL: 'https://towninow-default-rtdb.firebaseio.com',

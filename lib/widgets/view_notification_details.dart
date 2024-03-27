@@ -2,9 +2,9 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
-import 'package:social_media_app/models/notification.dart';
-import 'package:social_media_app/pages/profile.dart';
-import 'package:social_media_app/widgets/indicators.dart';
+import 'package:myysree/models/notification.dart';
+import 'package:myysree/pages/profile.dart';
+import 'package:myysree/widgets/indicators.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 class ViewActivityDetails extends StatefulWidget {

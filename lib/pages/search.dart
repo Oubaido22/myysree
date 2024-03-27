@@ -7,12 +7,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:ionicons/ionicons.dart';
-import 'package:social_media_app/chats/conversation.dart';
-import 'package:social_media_app/models/user.dart';
-import 'package:social_media_app/pages/profile.dart';
-import 'package:social_media_app/utils/constants.dart';
-import 'package:social_media_app/utils/firebase.dart';
-import 'package:social_media_app/widgets/indicators.dart';
+import 'package:myysree/chats/conversation.dart';
+import 'package:myysree/models/user.dart';
+import 'package:myysree/pages/profile.dart';
+import 'package:myysree/utils/constants.dart';
+import 'package:myysree/utils/firebase.dart';
+import 'package:myysree/widgets/indicators.dart';
 
 class Search extends StatefulWidget {
   @override

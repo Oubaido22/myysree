@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:loading_overlay/loading_overlay.dart';
 import 'package:provider/provider.dart';
-import 'package:social_media_app/auth/register/register.dart';
-import 'package:social_media_app/components/password_text_field.dart';
-import 'package:social_media_app/components/text_form_builder.dart';
-import 'package:social_media_app/utils/validation.dart';
-import 'package:social_media_app/view_models/auth/login_view_model.dart';
-import 'package:social_media_app/widgets/indicators.dart';
+import 'package:myysree/auth/register/register.dart';
+import 'package:myysree/components/password_text_field.dart';
+import 'package:myysree/components/text_form_builder.dart';
+import 'package:myysree/utils/validation.dart';
+import 'package:myysree/view_models/auth/login_view_model.dart';
+import 'package:myysree/widgets/indicators.dart';
 
 class Login extends StatefulWidget {
   @override

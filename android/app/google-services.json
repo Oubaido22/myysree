@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "97202136774",
+    "firebase_url": "https://towninow-default-rtdb.firebaseio.com",
+    "project_id": "towninow",
+    "storage_bucket": "towninow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97202136774:android:a361aa62b257151fb4d9c7",
+        "android_client_info": {
+          "package_name": "com.example.myysree"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI2mz-FYOBLiZw2eViMXZ6MhSt9XuLG6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97202136774:android:bf6b04a7fae4e625b4d9c7",
+        "android_client_info": {
+          "package_name": "com.example.social_media_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI2mz-FYOBLiZw2eViMXZ6MhSt9XuLG6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

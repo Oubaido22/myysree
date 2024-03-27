@@ -4,9 +4,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:social_media_app/models/user.dart';
-import 'package:social_media_app/services/user_service.dart';
-import 'package:social_media_app/utils/constants.dart';
+import 'package:myysree/models/user.dart';
+import 'package:myysree/services/user_service.dart';
+import 'package:myysree/utils/constants.dart';
 
 class EditProfileViewModel extends ChangeNotifier {
   GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();

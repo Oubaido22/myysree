@@ -6,16 +6,16 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:social_media_app/models/message.dart';
-import 'package:social_media_app/models/status.dart';
-import 'package:social_media_app/models/story_model.dart';
-import 'package:social_media_app/models/user.dart';
-import 'package:social_media_app/posts/story/confrim_status.dart';
-import 'package:social_media_app/services/post_service.dart';
-import 'package:social_media_app/services/status_services.dart';
-import 'package:social_media_app/services/user_service.dart';
-import 'package:social_media_app/utils/constants.dart';
-import 'package:social_media_app/utils/firebase.dart';
+import 'package:myysree/models/message.dart';
+import 'package:myysree/models/status.dart';
+import 'package:myysree/models/story_model.dart';
+import 'package:myysree/models/user.dart';
+import 'package:myysree/posts/story/confrim_status.dart';
+import 'package:myysree/services/post_service.dart';
+import 'package:myysree/services/status_services.dart';
+import 'package:myysree/services/user_service.dart';
+import 'package:myysree/utils/constants.dart';
+import 'package:myysree/utils/firebase.dart';
 
 class StatusViewModel extends ChangeNotifier {
   //Services

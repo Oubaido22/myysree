@@ -4,15 +4,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:provider/provider.dart';
-import 'package:social_media_app/components/chat_bubble.dart';
-import 'package:social_media_app/models/enum/message_type.dart';
-import 'package:social_media_app/models/message.dart';
-import 'package:social_media_app/models/user.dart';
-import 'package:social_media_app/pages/profile.dart';
-import 'package:social_media_app/utils/firebase.dart';
-import 'package:social_media_app/view_models/conversation/conversation_view_model.dart';
-import 'package:social_media_app/view_models/user/user_view_model.dart';
-import 'package:social_media_app/widgets/indicators.dart';
+import 'package:myysree/components/chat_bubble.dart';
+import 'package:myysree/models/enum/message_type.dart';
+import 'package:myysree/models/message.dart';
+import 'package:myysree/models/user.dart';
+import 'package:myysree/pages/profile.dart';
+import 'package:myysree/utils/firebase.dart';
+import 'package:myysree/view_models/conversation/conversation_view_model.dart';
+import 'package:myysree/view_models/user/user_view_model.dart';
+import 'package:myysree/widgets/indicators.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 class Conversation extends StatefulWidget {
